@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="Student" class="com.springtool.LabRecord.Employee">
+        <constructor-arg name="id" value="1"/>
+        <constructor-arg name="name" value="Hira"/>
+        <constructor-arg name="subject" ref="MCA"/>
+
+    </bean>
+    <bean id="MCA" class="com.springtool.LabRecord.ReplaceXML">
+        <constructor-arg name="subject1" value="SpringBoot"/>
+        <constructor-arg name="subject2" value="AdvanceJava"/>
+    </bean>
+
+</beans>
