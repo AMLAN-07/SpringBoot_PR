@@ -1,4 +1,4 @@
-package com.org.Employee.entity;
+package com.org.Students.entity;
 
 import org.springframework.data.repository.CrudRepository;
 

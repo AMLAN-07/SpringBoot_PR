@@ -1,4 +1,4 @@
-package com.org.Employee;
+package com.org.Students;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

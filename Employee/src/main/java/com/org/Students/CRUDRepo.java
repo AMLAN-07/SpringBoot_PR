@@ -1,4 +1,4 @@
-package com.org.Employee;
+package com.org.Students;
 
 public class CRUDRepo {
 }
