@@ -1,0 +1,30 @@
+server:
+  port: 2406
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+
+#spring:
+#  datasource:
+#    username: postgres
+#    password: hzkk4567@A
+#    url: jdbc:postgresql://localhost:5432/amlan
+#    driver-class-name: org.postgresql.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: trueserver:
+#  port: 8080
+#
+#spring:
+#  datasource:
+#    username: postgres
+#    password: hzkk4567@A
+#    url: jdbc:postgresql://localhost:5432/amlan
+#    driver-class-name: org.postgresql.Driver
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
